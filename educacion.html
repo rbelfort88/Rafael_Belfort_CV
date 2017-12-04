@@ -9,9 +9,118 @@
   <title>Educación Rafael Belfort</title>
   </head>
   <body>
+
     <header>
-      <img src="img/logo_RB_2.svg" alt="Logo Rafael Belfort" width="20%"><br>
+      <h1>
+        <img src="img/logo_RB_2.svg" alt="Logo Rafael Belfort" width="20%"><br>
+        Curriculum Vitae
+      </h1>
+      <h2>Rafael Ángel Belfort Arguedas</h2>
+      <h3>San José, Uruca - Noviembre, 1988</h3>
     </header>
+    <navbar>
+    <p>
+      <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+    </p>
+    </navbar>
+
+    <section>
+      <h2>Educación</h2>
+      <article class="education_table">
+        <table border="1" cellpadding="10",cellspacing="0">
+          <thead>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2008</td>
+              <td>Programa de bachillerato por madurez</td>
+              <td>Alajuela, Costa Rica</td>
+              <td>Y</td>
+            </tr>
+
+            <tr>
+              <td>2011</td>
+              <td>Universidad Latina de Heredia</td>
+              <td>Heredia, Costa Rica</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>Universidad Estatal a Distancia</td>
+              <td>Alajuela, Costa Rica</td>
+              <td>N</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="education_form">
+        <form autocomplete="on" name="Agregar Estudios">
+          <h3>Agregar Estudios</h3>
+          <p>
+            <label for="year" value="Selleciona el año">Año: </label>
+            <select name="year">
+              <option value="1980">2017</option>
+              <option value="1981">2016</option>
+              <option value="1982">2015</option>
+              <option value="1983">2014</option>
+              <option value="1984">2013</option>
+              <option value="1985">2012</option>
+              <option value="1986">2011</option>
+              <option value="1987">2010</option>
+              <option value="1988">2009</option>
+              <option value="1989">2008</option>
+              <option value="1990">2007</option>
+              <option value="1991">2006</option>
+              <option value="1992">2005</option>
+              <option value="1993">2004</option>
+              <option value="1994">2003</option>
+              <option value="1995">2002</option>
+              <option value="1996">2001</option>
+              <option value="1997">2000</option>
+              <option value="1998">1999</option>
+              <option value="1999">1998</option>
+              <option value="2000">1997</option>
+              <option value="2001">1996</option>
+              <option value="2002">1995</option>
+              <option value="2003">1994</option>
+              <option value="2004">1993</option>
+              <option value="2005">1992</option>
+              <option value="2006">1991</option>
+              <option value="2007">1990</option>
+              <option value="2008">1989</option>
+              <option value="2009">1988</option>
+              <option value="2010">1987</option>
+              <option value="2011">1986</option>
+              <option value="2012">1985</option>
+              <option value="2013">1984</option>
+              <option value="2014">1983</option>
+              <option value="2015">1982</option>
+              <option value="2016">1981</option>
+              <option value="2017">1980</option>
+            </select>
+            <br>
+            <label for="intitution">Institución: </label>
+            <input type="text" name="institution" required>
+            <br>
+            <label for="place">Lugar: </label>
+            <textarea name="place" rows="2" cols="24"></textarea>
+            <br>
+            <label for="alternative">Alternativa: </label>
+            <input type="radio" name="alternative" value="Y">Si
+            <input type="radio" name="alternative" value="N">No
+            <br>
+            <input type="submit" value="Enviar">
+          </p>
+        </form>
+      </article>
+
+    </section>
+
     <footer>
       <p style="color:grey" align="center" >
         <a href="mailto:contact@rafaelbelfort.online?subject=feedback">Contacto</a> |
